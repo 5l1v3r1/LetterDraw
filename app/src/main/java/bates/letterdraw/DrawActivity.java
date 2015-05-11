@@ -9,6 +9,12 @@ public class DrawActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_draw);
+
+        LetterDrawView v = (LetterDrawView)findViewById(R.id.draw_view);
+        Bundle extras = getIntent().getExtras();
+        if (extras != null) {
+            v.setText(extras.getString("text"));
+        }
     }
 
 }
