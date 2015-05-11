@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LetterDraw</string>
+    <string name="text_hint">Put some text here</string>
+    <string name="draw_button">Draw!</string>
+    <string name="title_activity_draw">DrawActivity</string>
+    <string name="draw_prompt">Draw with your finger (hint: it doesn't work yet)</string>
+</resources>
